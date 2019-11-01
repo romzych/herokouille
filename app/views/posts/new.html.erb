@@ -1,0 +1,6 @@
+<%= form_for :post,  :url => { :action => "create"} do |f| %>
+
+<%= f.text_field :name %><br>
+<%= f.text_field :body %>
+<%= submit_tag 'submit' %>
+<%end%>
